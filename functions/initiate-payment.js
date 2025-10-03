@@ -33,7 +33,7 @@ exports.handler = async (event, context) => {
   
   try {
     const requestBody = JSON.parse(event.body);
-    const { phoneNumber, amount = 250, description = 'Account Verification Fee' } = requestBody;
+    const { phoneNumber, amount = 150, description = 'Account Verification Fee' } = requestBody;
     
     console.log('Parsed request:', { phoneNumber, amount, description });
     

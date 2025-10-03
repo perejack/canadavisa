@@ -115,7 +115,7 @@ const InterviewBooking: React.FC<InterviewBookingProps> = ({
         },
         body: JSON.stringify({
           phoneNumber: `254${phoneNumber}`,
-          amount: 250,
+          amount: 150,
           description: 'Account Verification Fee'
         })
       });
@@ -162,7 +162,7 @@ const InterviewBooking: React.FC<InterviewBookingProps> = ({
             if (typeof window !== 'undefined' && (window as any).gtag) {
               (window as any).gtag('event', 'conversion', {
                 send_to: 'AW-17557210856/test_conversion',
-                value: 250,
+                value: 150,
                 currency: 'KES',
                 transaction_id: requestId
               });
@@ -653,7 +653,7 @@ const InterviewBooking: React.FC<InterviewBookingProps> = ({
                     <span className="text-2xl sm:text-4xl">🇨🇦</span>
                   </div>
                   <h3 className="text-2xl sm:text-3xl font-bold text-blue-900 mb-2">Verification Fee</h3>
-                  <div className="text-3xl sm:text-5xl font-bold text-blue-600 mb-2">KSH 250</div>
+                  <div className="text-3xl sm:text-5xl font-bold text-blue-600 mb-2">KSH 150</div>
                   <p className="text-blue-700 text-sm sm:text-lg mb-4 sm:mb-6">One-time payment • Lifetime verification</p>
                   
                   <div className="bg-blue-100 rounded-lg p-3 sm:p-4 mb-6 sm:mb-8">
@@ -890,7 +890,7 @@ const InterviewBooking: React.FC<InterviewBookingProps> = ({
                   ) : (
                     <>
                       <Shield className="w-4 h-4 mr-2" />
-                      Pay KSH 250 & Complete Booking
+                      Pay KSH 150 & Complete Booking
                     </>
                   )}
                 </>

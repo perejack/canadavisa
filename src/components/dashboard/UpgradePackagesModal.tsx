@@ -41,7 +41,7 @@ const UpgradePackagesModal: React.FC<UpgradePackagesModalProps> = ({
   const packages = {
     premium: {
       name: 'Premium Package',
-      price: 250,
+      price: 150,
       color: 'from-blue-500 to-purple-600',
       icon: Crown,
       popular: true,
@@ -59,7 +59,7 @@ const UpgradePackagesModal: React.FC<UpgradePackagesModalProps> = ({
     },
     platinum: {
       name: 'Platinum Package',
-      price: 250,
+      price: 150,
       color: 'from-yellow-500 to-orange-600',
       icon: Star,
       popular: false,
