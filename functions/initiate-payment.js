@@ -46,7 +46,7 @@ exports.handler = async (event, context) => {
     }
     
     // Generate a unique reference for this payment
-    const externalReference = `VISA-${Date.now()}-${Math.floor(Math.random() * 1000)}`;
+    const externalReference = `DEMIO-${Date.now()}-${Math.floor(Math.random() * 1000)}`;
     
     // Prepare PesaFlux payload
     const pesafluxPayload = {
